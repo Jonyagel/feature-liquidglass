@@ -1,0 +1,12 @@
+{
+  "name": "feature-liquidglass",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["nextjs"],
+  "scripts": {
+    "dev": "npm run dev --workspace=nextjs",
+    "build": "npm run vercel --workspace=nextjs",
+    "start": "npm run start --workspace=nextjs",
+    "lint": "npm run lint --workspace=nextjs"
+  }
+}
